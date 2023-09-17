@@ -14,6 +14,7 @@ asdasdasdasdasdasdasdasd
 0917 push 연습!0917 push 연습!0917 push 연습!dsaf
 
 수정중 fetch연습중
+<<<<<<< HEAD
 
 자 이건 aaaaa계정임니다
 ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
@@ -34,7 +35,4 @@ asdasdasdasdasdasdasdasd
 
 자 이건 aaaaa계정임니다
 ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
-
-
-
 
