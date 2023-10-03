@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="memberDB">
+
+<select id="id_ck" parameterType="string" resultType="string">
+select * from member_ad where mid = #{mid}
+</select>
+
+<insert id="member_insert">
+insert into member_ad values('0',#{marea},#{mdept},#{mname},
+#{mid},password(#{mpass}),#{memail},#{mtel},#{mlevel},5,'Y',now())
+</insert>
+
+<select id="member_login" parameterType="memberdto" resultType="memberdto">
+select * from member_ad where mid=#{mid} and mpass = password(#{mpass})
+</select>
+
+<update id="login_count">
+update member_ad set mcount = mcount -1 where mid = #{mid}
+</update>
+
+<update id="login_reset">
+update member_ad set mcount = 5 where mid = #{mid}
+</update>
+
+<update id="use_no">
+update member_ad set muse = 'N' where mid = #{mid}
+</update>
+
+<select id="muse_value" parameterType="string" resultType="string">
+select muse from member_ad where mid = #{mid}
+</select>
+
+<select id="mcount" parameterType="string" resultType="string">
+select mcount from member_ad where mid = #{mid}
+</select>
+
+</mapper>

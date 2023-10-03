@@ -1,0 +1,154 @@
+body{margin:0 ; font-family: 'Noto Sans KR', sans-serif; width: 100%; height: 100%;}
+input:focus{outline: none;}
+/*login*/
+.adbody{margin:0 auto; text-align: center; margin-top:10%;}
+.adtitle{width: 230px; height: 55px; font-size:14px; font-weight: bold; text-decoration:underline; margin:0 auto;}
+.admoom{width: 400px; height: 300px;  margin:0 auto; border: 1px solid;}
+.intotal{width: 400px; margin-top: 25px; }
+.adin1{width:260px; height:46px; margin-left: 17%; margin-bottom: 15px; background-image: url('../img/person_1x.png'); background-position: 5px center; background-repeat: no-repeat; background-size: 29px; border: 1px solid; border-radius: 4px;}
+.adin2{width:260px; height:46px; margin-left: 17%; margin-bottom: 15px; background-image: url('../img/key_1x.png'); background-position: 5px center; background-repeat: no-repeat; background-size: 29px; border: 1px solid; border-radius: 4px;}
+.loginid{width:218px; height:43px;  margin-left:38px; border: none; border-radius: 4px; }
+.loginpass{width:218px; height:43px;  margin-left:38px; border: none; border-radius: 4px;}
+.adbt{width: 400px; text-align: center; margin-bottom: 15px; }
+.loginbt1{background-color: rgb(52, 152, 219); border:none; color:white; width: 100px; height: 40px; border-radius: 4px; cursor: pointer; }
+.loginbt2{background-color: rgb(224, 224, 224); border:none; width: 100px; height: 40px; margin-left:15px; border-radius: 4px; cursor: pointer; }
+.adinfomain{width:370px; height:70px ;}
+.adinfomain ul{list-style: none;}
+.adinfo{font-size: 12px;}
+/*admidn_ship*/
+.membody{margin:0 auto; text-align: center; margin-top:10%;}
+.memoutline{width: 850px; height:360px ; border: 1px solid; border-radius: 4px; margin:0 auto; }
+.memsel1{width: 100%; height: 40px; margin-top: 20px;}
+.memsel1 li{list-style:none; float: left;}
+.memsel2{width: 100%; height: 40px; margin-right: 50px; margin-top: 15px;}
+.memsel2 li{list-style:none; float: left;}
+.memsel3{width: 481px; height: 40px; margin-top: 15px; }
+.memsel3 li{list-style:none; float: left;}
+.memsel4{width: 453px; height: 40px; margin-top: 15px; }
+.memsel4 li{list-style:none; float: left;}
+.memfont{width: 115px; height: 40px; text-align: center; line-height: 40px; font-size: 13px; float: left;  margin-right: 10px;}
+.memfont1{width: 115px; height: 40px; text-align: center; line-height: 40px; font-size: 13px; float: left;  margin-right: 10px;}
+.memlisel1{width: 130px; height: 40px; float: left; margin-right: 10px; border-radius: 4px;}
+.kosel{width: 130px; height: 40px; float: left; text-indent: 5px;}
+.memlisel2{width: 130px; height: 50px; float: left;  border-radius: 4px;}
+.admamber1{width: 200px; height: 40px; border: 1px solid; border-radius: 4px; margin-right:100px; text-indent: 5px;}
+.admamber2{width: 200px; height: 40px; border: 1px solid; border-radius: 4px; float: left; margin-right:10px; text-indent: 5px;}
+.admamber3{width: 300px; height: 40px; border: 1px solid; border-radius: 4px; float: left; margin-right:10px; text-indent: 5px;}
+.admamber4{width: 220px; height: 40px; border: 1px solid; border-radius: 4px; text-indent: 5px;}
+.idcheck{background-color: rgb(94, 94, 94); color: white; width:80px; height: 40px; border: none; border-radius: 4px; cursor: pointer; text-indent: 5px;}
+.adnumber{width: 80px; height: 40px; float: left;border: 1px solid ; padding: 0; margin: 0; border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; text-indent: 5px;}
+.ad_number{width: 15px; height: 40px; line-height:40px; text-align: center; float:left;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none;}
+.admembt{width:300px; height: 40px; margin:0 auto; font-size: 13px;}
+.admembt ul{list-style: none;}
+.admembt_ok{width:100px ; height: 40px; float: left; border: none; color: white; background-color:rgb(52, 152, 219) ; border-radius: 4px; cursor: pointer;} 
+.admembt_no{width:100px ; height: 40px; float: left; border: none; margin-left: 15px; background-color:rgb(224, 224, 224); border-radius: 4px; cursor: pointer;}
+/*ad_top,bottom*/
+.menuline{width:100%; height:5px; background-color:rgb(192, 57, 43);}
+.menusize{width:100%; height:60px; background-color:rgb(0,0,0); text-align: center; line-height: 50px;  color: white; font-size:13px; list-style: none; margin: 0 auto;}
+.menusize ul{list-style: none;}
+.topmenu1{width: 150px; height: 60px; color: white; float: left; }
+.topmenu2{width: 100px; height: 60px; color: white; float: left; cursor: pointer;}
+.topmenu3{width: 200px; height: 60px; color: white; float: right; margin-right: 15px;}
+a{text-decoration-line: none;} a:link {color : white; } a:visited {color : white;} a:hover {color : white;} a:active {color :white;}
+/*ad_main*/
+.ad_mainall{font-size: 13px; margin-left:10%;}
+.ad_main{margin-bottom: 30px;}
+.ad_main ul{list-style: none;}
+.ad_maintitle{width: 147px; height: 30px; background-color: black; color: white; text-align: center; border-radius:10px 10px 0 0 ; line-height: 30px; }
+.ad_mainbox{width: 1100px; height:200px ; border: 1px solid; border-top: 3px solid; border-top-color:  rgb(192, 57, 43) ;}
+/*product_list , admin_list , delivery_list*/
+.listbody{width:1100px; text-align: center; margin-left:50px;}
+.protitle{width: 1100px; height: 60px; font-size:14px; margin:0 auto; text-align: left; line-height: 50px; font-weight: bold; text-decoration:underline; }
+.procho{width: 1100px; height: 30px; margin:0 auto; font-size: 14px; margin-bottom:10px;}
+.procho ul{list-style: none; -webkit-padding-start: 0px;}
+.prochoL{float: left; margin-right: 10px;}
+.prochoR{float: right;}
+.procfont{width:100px; height: 30px; line-height: 30px; background-color: black; color: white;}
+.procsel1{width: 150px; height: 30px;}
+.prochoin{width:100px; height: 30px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.proclick{width:60px; height: 30px; background-color:rgb(52, 152, 219); border-radius: 4px; border: none; color: white; cursor: pointer;}
+.procsel2{width:100px; height: 30px;}
+.protaball{width:1100px; margin: 0 auto;}
+.protaball table,tr,td{height:30px; border: 1px solid; border-collapse: collapse; font-size: 14px;}
+.listcenter{text-align: center;}
+.propagebt{width:1100px; height: 25px; margin:0 auto; margin-top:25px}
+.propagebt ul{text-align: center;}
+.propagebt li{list-style: none; display: inline-block; width: 25px; height: 25p; background-color: rgb(224, 224, 224); margin-right: 10px; cursor: pointer;}
+.probtall{width:1100px; height:30px; margin:0 auto; margin-top:25px; }
+.probtall ul{list-style:none; -webkit-padding-start: 0px;}
+.probtL{width:100px; height: 30px; float: left; margin-right: 10px;}
+.probtR{width:100px; height: 30px; float: right; margin-left:10px}
+.probtblu{width:100px; height: 30px; color: white; border-radius: 4px; border: none; background-color: rgb(52, 152, 219); cursor: pointer;}
+.probtbla{width:100px; height: 30px; color: white; border-radius: 4px; border: none; background-color:black; cursor: pointer;}
+.probtred{width:100px; height:30px; color:white; border-radius: 4px; border: none; background-color:rgb(231, 76, 60); cursor: pointer;}
+/*admin_list*/
+.adlisttitle{width: 1100px; height: 60px; font-size:14px; margin:0 auto; text-align: left; line-height: 50px; font-weight: bold; text-decoration:underline; }
+.adlistcsel1{width:110px; height: 30px; border-radius: 4px; border:1px solid; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.listclick{width:55px; height: 25px; background-color:rgb(52, 152, 219); border-radius: 4px; border: none; color: white; cursor: pointer;}
+.adlistsel2{width:75px; height: 25px; border-radius: 4px; border:1px solid; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.adlistbt{width:1100px; text-align: right; margin-top:25px}
+/*delivery_list*/
+.adlistsel3{width:100px; height: 25px; border-radius: 4px; border:1px solid; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+/*product_insert*/
+.inserttktle{width:1100px; height: 50px; font-size: 14px; margin:0 auto; text-align: left; line-height: 50px; font-weight: bold; text-decoration:underline;}
+.inserttaball{width:1100px; margin: 0 auto; margin-bottom: 20px;}
+.inserttaball table,tr,td{height: 40px; font-size: 14px; border: 1px solid; text-align: left; border-collapse: collapse; }
+.intebtd1{width: 200px; font-size: 14px; background-color:rgb(224, 224, 224) ;}
+.intebtd1_1{width:400px;}
+.intebtd1_1 ul{list-style: none; margin:0; padding: 0; }
+.intebtd1_1 li{float: left;}
+.intebtd1_2{width:300px;}
+.intebtd1_2 ul{list-style: none; margin:0; padding: 0; }
+.inra{float: left; width:36px;}
+.intebtr{height: 90px;}
+.insertbt{width: 900px; height: 30px; margin:0 auto;}
+.insertbt ul{margin:0; padding:0; }
+.insertbt li{list-style: none; display: inline-block; text-align: center; margin-right:20px ;}
+.insertbt1 {width:100px; height: 40px; border:none; border-radius: 4px; color:white; background-color:rgb(52, 152, 219) ; cursor: pointer;}
+.insertbt2 {width:100px; height: 40px; border:none; border-radius: 4px; color:white; background-color:rgb(94, 94, 94); cursor: pointer;}
+.intebput1{width:270px; height: 30px; border: 1px solid; border-radius: 4px;}
+.intebput2{width:200px; height: 30px; border: 1px solid;  border-radius: 4px; float: left;}
+.intebput3{width:120px; height: 30px; border: 1px solid; border-radius: 4px;}
+.intebnumfont{color: rgb(192, 57, 43); width:150px;  float: left; line-height: 30px; font-size: 14px; margin-left: 10px;}
+.intebnumfont1{height: 69px; line-height: 69px; font-size: 14px; margin-left: 10px;}
+.indis{border: 0 ;} .inqr{width:69px; height:69px;}
+/*peoduct_listpopup*/
+.productexcel{width:800px; height:300px; margin:0 auto;}
+.proexceltitle{width:740px; line-height: 60px; float: left; font-size: 25px;}
+.productexcel_1{width:800px; height:60px; margin-bottom:30px; border-bottom:1px solid;}
+.productexcel_1 ul{list-style: none; margin:0; padding:0;}
+.productexcel_2 ul{margin-left:20px; padding:0; list-style: none;}
+.excelfile{width:760px; height: 30px; border: 1px solid; line-height: 28px;}
+/*delivery_ship*/
+.deldhipbody{width:1100px; margin-left:50px;}
+.deltitle{width: 850px; height: 60px; font-size:14px; margin:0 auto; text-align: left; line-height: 50px; font-weight: bold; text-decoration:underline; }
+.memoutline{width: 850px ; height: 355px; border: 1px solid; border-radius: 4px; margin:0 auto; margin-bottom: 15px; font-size: 13px;}
+.dlenumber{width:100%; height: 40px; margin-top:20px; }
+.memall li{float: left; list-style: none;}
+.delfont{width: 115px; height: 40px;line-height: 40px;}
+.delinput{width: 200px; height: 40px; margin-left: 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.doudlecheck{width:80px; height: 40px; background-color:rgb(94, 94, 94) ; color: white; border-radius: 4px; border: none; margin-left: 10px; cursor: pointer;}
+.delfont3{width: 300px; height: 20px; margin-left: 10px; text-align: left; margin-top:10px; }
+.memall1 li{float:left; list-style: none;}
+.delname{width:100%; height: 40px; margin-top:15px;}
+.delfont1{width: 115px; height: 40px; margin-left: 120px; line-height: 40px;}
+.adsel{width: 150px; height: 40px; margin-left: 10px;}
+.delinput1{width: 285px; height: 40px; margin-left: 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.delnumber{width: 80px; height: 40px; float: left; border-radius: 4px; border: 1px solid ; padding: 0; margin: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.del_number{width: 15px; height: 40px; line-height:40px; text-align: center; float:left; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none;}
+.delinput2{width: 80px; height: 40px; border-radius: 4px; border: 1px solid ; padding: 0; margin: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.delinput3{width: 220px; height: 40px; margin-left:10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.delfont2{width: 115px; height: 40px;  line-height: 40px; margin-right: 10px;}
+.delfont4{width: 115px; height: 40px; margin-left: 35px; line-height: 40px;}
+.delinput4{width: 120px; height: 40px; margin-left:10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.delinput5{width: 20px; height: 40px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.delinput6{width: 300px; height: 40px; margin-left:10px; border: 1px solid; border-radius: 4px; line-height: 40px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.delmembt{width:1100px; height: 40px; text-align: center; margin-left: 50px; font-size: 13px;}
+.delmembt ul{list-style: none; margin:0; padding: 0;}
+.delmembt li{display: inline-block;}
+.delmembt_ok{width:100px ; height: 40px; border: none; color: white; background-color:rgb(52, 152, 219) ; border-radius: 4px; cursor: pointer;} 
+.delmembt_no{width:100px ; height: 40px; border: none; margin-left: 15px; background-color:rgb(224, 224, 224); border-radius: 4px; cursor: pointer;}
