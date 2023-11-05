@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		  <typeAlias alias = "memberdto" type="portfolio.memberdto"/>
+		  <typeAlias alias = "noticedto" type="portfolio.noticedto"/>
+		  <typeAlias alias = "faqdto" type="portfolio.faqdto"/>
+		  <typeAlias alias = "configdto" type="portfolio.configdto"/>	
+		  <typeAlias alias = "userdto" type="portfolio.userdto"/>
+		  <typeAlias alias = "reservedto" type="portfolio.reservedto"/>
+	</typeAliases>
+</configuration>
