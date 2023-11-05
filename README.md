@@ -1,6 +1,6 @@
 << 래미안 웹 프로젝트 (개인 프로젝트) >>
 
-클라이언트 페이지 : http://hankjun333.cafe24.com/portfolio/index.do
+클라이언트 페이지 : http://hankjun333.cafe24.com/portfolio/index.do  
 (테스트 계정 아이디 : uks333 , 비밀번호 : 123123123)
 관리자 페이지 : http://hankjun333.cafe24.com/portfolio/admin/index.jsp  
 (테스트 계정 아이디 : uks333 , 비밀번호 : a123456)
