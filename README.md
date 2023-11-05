@@ -1,9 +1,9 @@
 << 래미안 웹 프로젝트 (개인 프로젝트) >>
 
-클라이언트 페이지 : http://hankjun333.cafe24.com/portfolio/index.do  
-(테스트 계정 아이디 : uks333 , 비밀번호 : 123123123) 
- 관리자 페이지 : http://hankjun333.cafe24.com/portfolio/admin/index.jsp 
-(테스트 계정 아이디 : uks333 , 비밀번호 : a123456) 
+클라이언트 페이지 : http://hankjun333.cafe24.com/portfolio/index.do
+(테스트 계정 아이디 : uks333 , 비밀번호 : 123123123)
+관리자 페이지 : http://hankjun333.cafe24.com/portfolio/admin/index.jsp
+(테스트 계정 아이디 : uks333 , 비밀번호 : a123456)
  
 레미안 웹 시스템을 이용하여 분양예정 정보 및 단지정보 입주안내와 사전방문예약 시스템등 다양한 정보를 빠르게 고객이
 확인 및 정보를 전달 할 수 있습니다.
