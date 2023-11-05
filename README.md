@@ -15,6 +15,7 @@
 
 클라이언트 페이지 : http://hankjun333.cafe24.com/admin/index.do
 (테스트 계정 아이디 : uks333 , 비밀번호 : 123123)
+
 관리자 페이지 : http://hankjun333.cafe24.com/admin/admin/index.jsp
 (테스트 계정 아이디 : master , 비밀번호 : shop_master123)
 
