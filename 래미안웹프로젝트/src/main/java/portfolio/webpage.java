@@ -228,8 +228,8 @@ public class webpage {
 			try {
 				
 				this.host ="iup.cdn1.cafe24.com";
-				this.user = "hankjun333";
-				this.pass = "Qkrqudwns12@";
+				this.user = "";
+				this.pass = ""; //보안상 제거합니다.
 				this.port = 21;
 				ftp.configure(cf);	
 				ftp.connect(this.host,this.port);	
@@ -315,8 +315,8 @@ public class webpage {
 		//System.out.println(req.getServletContext().getRealPath(dbfilename));
 			try {
 				this.host ="iup.cdn1.cafe24.com";
-				this.user = "hankjun333";
-				this.pass = "Qkrqudwns12@";
+				this.user = "";
+				this.pass = "";
 				this.port = 21;
 				ftp.configure(cf);
 				ftp.connect(this.host,this.port);
