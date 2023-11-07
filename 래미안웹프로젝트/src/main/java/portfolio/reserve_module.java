@@ -43,10 +43,10 @@ public class reserve_module {
 	
 	
 	
-	//서비스 아이디
-		private String service_id  = "ncp:sms:kr:318003038483:raemian";
-		private String access_id = "kBoTSzYOy2it4yDWbVK4";
-		private String Secret_key = "YEFx1TXDXAF5TOyHiElc9Dipi6HI8rVMjzyW96H4";
+	//서비스 아이디 --개인정보라서 삭제합니다.
+		private String service_id  = "";
+		private String access_id = "";
+		private String Secret_key = "";
 		private String service = "SMS"; //SMS , LMS , MMS 
 		private String url = "https://sens.apigw.ntruss.com/sms/v2/services/"+service_id+"/messages";
 		private String url2 = "/sms/v2/services/"+service_id+"/messages"; //SHA 암호화에서 사용
