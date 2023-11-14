@@ -82,45 +82,63 @@ public class webpage {
 		return null;
 	}
 	@PostMapping("/admin/loginok.do")
-	public String loginok(HttpServletRequest req,HttpServletResponse res,@RequestParam String mid,@ModelAttribute("member") memberdto memberdto) {
+	public String loginok(HttpServletRequest req,
+			HttpServletResponse res,
+			@RequestParam String mid,
+			@RequestParam String mpass) throws Exception{
 		
-		PrintWriter pw = null;
+		//System.out.println(mid+mpass);
+		res.setCharacterEncoding("utf-8");
 		res.setContentType("text/html;charset=utf-8");
-		String musevalue = this.mm.musevalue(mid).intern();
-		//해당 사용자 접속전 muse N이면 접근차단!
-		try {
-			this.pw = res.getWriter();
-			if(musevalue == "N") {
-				this.pw.write("<script>"
-						+ "alert('해당 사용자는 접근차단되었습니다 관리자에게 문의바랍니다.');"
-						+ "history.go(-1);"
+		PrintWriter pw = res.getWriter();
+		String result = this.mm.member_login(mid,mpass);
+		if(result != null) { //사용자 계정이 있는경우! 완벽히 맞음
+			int reset = this.mm.login_reset(mid);
+			String usevalue = this.mm.musevalue(mid);
+			if(usevalue.intern() == "Y") {
+				HttpSession hs = req.getSession();
+				hs.setAttribute("mid", mid);
+				pw.write("<script>"
+						+ "alert('정상적으로 로그인 되었습니다.');"
+						+ "location.href='./admin_main.do';"
 						+ "</script>");
 			}
 			else {
-				this.dto = this.mm.member_login(memberdto);
-				if(this.dto == null) {
-					//로그인 정보가 틀렸다는 곳
-					int countck = this.mm.login_count(mid);
-					//해당 사용자 로그인 갯수 세기
-					String countnum = this.mm.mcount(mid);
-					//mcount 값이 0보다 작거나 같으면 해당 사용자 muse 칼럼 N로 변경
-					if(Integer.parseInt(countnum) <=0) {
-						int use = this.mm.use_no(mid);
-					}
+				pw.write("<script>"
+						+ "alert('해당 계정은 접근 차단되었습니다.');"
+						+ "history.go(-1);"
+						+ "</script>");
+			}
+			System.out.println("리셋 : "+reset + "여기로 메인페이지 이동경로작성");
+		}
+		//로그인 틀린경우 2가지 아이디는 맞는경우 아이디도 안맞는경우! 구분필요
+		else { 
+			//아이디는 맞는경우
+			String idck = this.mm.id_check(mid);
+			if(idck !=null) {
+				int discount = this.mm.login_count(mid);
+				String countnum = this.mm.mcount(mid);
+				if(Integer.parseInt(countnum)>0) {
+					pw.write("<script>"
+							+ "alert('비밀번호 실패입니다. 5회 실패시 해당 계정은 정지됩니다.');"
+							+ "location.href='./index.jsp';"
+							+ "</script>");
 				}
-				else { //성공시 카운트 리셋해주는 곳
-					int count_reset = this.mm.login_reset(mid);
-					HttpSession hs = req.getSession();
-					hs.setAttribute("mid", mid);
-					this.pw.write("<script>"
-							+ "alert('정상적으로 로그인 되었습니다.');"
-							+ "location.href='./admin_main.do';"
+				else{
+					int useno = this.mm.use_no(mid);
+					System.out.println(useno);
+					pw.write("<script>"
+							+ "alert('해당 계정은 정지되었습니다. 관리자에게 문의바랍니다.');"
+							+ "location.href='./index.jsp';"
 							+ "</script>");
 				}
 			}
-		}
-		catch(Exception e) {
-			System.out.println(e);
+			//아에 계정이 틀린경우
+			pw.write("<script>"
+					+ "alert('계정이 존재하지 않습니다.');"
+					+ "history.go(-1);"
+					+ "</script>");
+			
 		}
 		return null;
 	}
