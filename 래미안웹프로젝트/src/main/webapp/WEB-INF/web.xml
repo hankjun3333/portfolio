@@ -19,10 +19,6 @@
 <servlet-mapping>
 <servlet-name>portfolio</servlet-name>
 <url-pattern>/</url-pattern>
-<!--
- /*쓴 이유는 Controller 허락없이 view 페이지가 작동되는것을 원천 봉쇄
- 이거의 문제는 dispatcher의 핸들링 및 어노테이션 값을 모두 셋팅해야되는 일이 발생함
-  -->
 </servlet-mapping>
 
 <!-- 언어셋 셋팅 -->
